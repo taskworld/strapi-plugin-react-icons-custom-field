@@ -1,0 +1,74 @@
+{
+  "name": "strapi-plugin-react-icons-custom-field",
+  "version": "0.0.0-dev",
+  "description": "A plugin to add a custom field for picking react icons",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "admin",
+    "custom-field",
+    "react-icons"
+  ],
+  "strapi": {
+    "name": "React Icons",
+    "description": "A plugin to add a custom field for picking react icons",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "@strapi/strapi": "^4.15.0",
+    "@strapi/typescript-utils": "^4.6.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "Taskworld",
+    "email": "developers@taskworld.com",
+    "url": "https://github.com/taskworld"
+  },
+  "maintainers": [
+    {
+      "name": "Taskworld",
+      "email": "developers@taskworld.com",
+      "url": "https://github.com/taskworld"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "build:client": "tsc -p tsconfig.client.json",
+    "build:server": "tsc -p tsconfig.server.json",
+    "build": "npm run build:client && npm run build:server"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskworld/strapi-plugin-react-icons-custom-field.git"
+  },
+  "homepage": "https://github.com/taskworld/strapi-plugin-react-icons-custom-field#readme"
+}
