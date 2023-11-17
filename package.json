@@ -10,7 +10,7 @@
     "react-icons"
   ],
   "strapi": {
-    "name": "react-icons-custom-field",
+    "name": "strapi-plugin-react-icons-custom-field",
     "description": "A plugin to add a custom field for picking react icons",
     "kind": "plugin"
   },
