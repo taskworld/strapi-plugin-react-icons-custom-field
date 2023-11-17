@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.0.0...v1.0.1) (2023-11-17)
+
+
+### fix
+
+* more permissive peer deps ([d7f4105](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/commit/d7f4105473cc5aa9c00cadc4881ef33692bf0d25))
+
 # 1.0.0 (2023-11-17)
 
 
