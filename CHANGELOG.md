@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.1.0...v1.1.1) (2023-11-17)
+
+
+### fix
+
+* make the strapi plugin name iso with package name ([1c891a7](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/commit/1c891a771e2a98806c0b1df647103f14e08b03df))
+
 # [1.1.0](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.0.2...v1.1.0) (2023-11-17)
 
 
