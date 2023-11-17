@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.0.1...v1.0.2) (2023-11-17)
+
+
+### fix
+
+* plugin name should be camel cased ([8bcaf32](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/commit/8bcaf3218bf92bd5a7c0fc4b3d868449fa141d84))
+
 ## [1.0.1](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.0.0...v1.0.1) (2023-11-17)
 
 
