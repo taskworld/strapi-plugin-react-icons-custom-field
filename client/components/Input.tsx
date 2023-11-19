@@ -22,6 +22,8 @@ import IconButton from "./IconButton";
 import { useApi } from "../hooks/useApi";
 import { useIcon } from "../hooks/useIcon";
 
+import pluginId from '../../pluginId.json'
+
 type InputProps = {
   name: string;
   value: string;
@@ -49,7 +51,7 @@ export default function Input({
   const [modal, setModal] = useState(false);
   const [filter, setFilter] = useState("");
 
-  const config = useApi("/strapi-plugin-react-icons-custom-field");
+  const config = useApi(`/${pluginId}`);
 
   const SelectedIcon = useIcon(value);
   const iconSets: string[] = config.data?.pack ?? ["lu"];
