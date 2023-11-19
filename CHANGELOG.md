@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.1.1...v1.1.2) (2023-11-19)
+
+
+### fix
+
+* use pluginId ref whenever necessary ([0338d78](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/commit/0338d78d66057fb415daa7cbc0726ca342740df2))
+
 ## [1.1.1](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.1.0...v1.1.1) (2023-11-17)
 
 
