@@ -3,11 +3,14 @@ import styled from "styled-components";
 
 import { DiReact } from "react-icons/di";
 
-const icon = () => styled(DiReact)`color: #61dbfb;`;
+import pluginId from '../pluginId.json'
+
+const icon = styled(DiReact)`color: #61dbfb;`;
 
 export default {
   register(app: any) {
     app.customFields.register({
+      plugin: pluginId,
       name: "react-icon",
       type: "string",
 
