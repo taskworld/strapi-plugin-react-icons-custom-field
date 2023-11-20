@@ -5,16 +5,14 @@ import { DiReact } from "react-icons/di";
 
 import pluginId from '../pluginId.json'
 
-const icon = styled(DiReact)`color: #61dbfb;`;
-
 export default {
   register(app: any) {
     app.customFields.register({
       plugin: pluginId,
       name: "react-icon",
       type: "string",
+      icon: styled(DiReact)`color: #61dbfb;`,
 
-      icon,
       components: {
         Input: async () =>
           import(/* webpackChunkName: "[request]" */ "./components/Input"),
