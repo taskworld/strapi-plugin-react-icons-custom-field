@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.1.2...v1.1.3) (2023-11-20)
+
+
+### fix
+
+* icon of custom field ([107b739](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/commit/107b739952d5380d009841b13452e8f4c8ca46fb))
+
 ## [1.1.2](https://github.com/taskworld/strapi-plugin-react-icons-custom-field/compare/v1.1.1...v1.1.2) (2023-11-19)
 
 
